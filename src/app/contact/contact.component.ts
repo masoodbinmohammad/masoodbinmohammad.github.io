@@ -40,7 +40,7 @@ export class ContactComponent implements OnInit {
       },
       {
         name: 'Pluralsight',
-        url: 'https://www.pluralsight.com/profile/masoodbinmohammad',
+        url: 'https://app.pluralsight.com/profile/masood-mohammad-44',
         iconUrl: './assets/icon/pluralsight.svg'
       }
     ]
@@ -51,12 +51,7 @@ export class ContactComponent implements OnInit {
     url: 'mailto:masoodbinmohammad@hotmail.com',
     iconUrl: './assets/icon/email.svg'
   };
-
-  vscodeMarketplace = {
-    name: 'VSCode Extension Publisher',
-    url: 'https://marketplace.visualstudio.com/publishers/masoodbinmohammad',
-    iconUrl: './assets/icon/vscode.svg'
-  };
+  
   ngOnInit() {}
 
   onBackClick() {

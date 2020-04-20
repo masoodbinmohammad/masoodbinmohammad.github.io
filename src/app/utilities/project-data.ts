@@ -3,12 +3,18 @@ import { environment } from '../../environments/environment';
 import { IProject } from './IProject';
 import { testUniqueness } from './common';
 
-import { CakeShopData } from './data/cake-shop.data';
+import { PdaData } from './data/pda.data';
+import { NewsPageData } from './data/newspage.data';
+import { WebOpsData } from './data/web-ops.data';
+import { PPSData } from './data/pps.data';
 
 
 const getAllProject = () => {
   const projects = [
-    CakeShopData
+    PdaData,
+    NewsPageData,
+    WebOpsData,
+    PPSData
   ];
 
   if (!environment.production) {
