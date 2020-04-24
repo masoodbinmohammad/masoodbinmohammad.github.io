@@ -4,9 +4,7 @@
 This is my portfolio website (SPA), developed with Angular9 .
 
 
-# URL
-
-https://masoodbinmohammad.github.io
+## URL :: https://masoodbinmohammad.github.io
 
 **Buit with 🔧 🔨 ⚒**
 
