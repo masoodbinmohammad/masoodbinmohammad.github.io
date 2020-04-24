@@ -8,9 +8,9 @@ URL
 
 https://masoodbinmohammad.github.io
 
-Tech Stuff
+Buit with 🔧 🔨 ⚒
 
-Angular
+Angular9
 Angular Animation
 CSS
 TypeScript
