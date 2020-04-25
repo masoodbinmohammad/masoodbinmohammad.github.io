@@ -12,5 +12,5 @@ This is my portfolio website (SPA), developed with Angular9 .
 - Angular Animation
 - SCSS
 - TypeScript
-- Live Chat Feature
+- Tawk (Live Chat)
 
