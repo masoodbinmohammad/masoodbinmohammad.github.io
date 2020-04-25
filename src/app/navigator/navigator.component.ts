@@ -19,7 +19,7 @@ import {
 @Component({
   selector: 'app-navigator',
   templateUrl: './navigator.component.html',
-  styleUrls: ['./navigator.component.scss'],
+   styleUrls: ['./navigator.component.scss'],
   animations: [
     trigger('slideIn', [
       transition('* => *', [
@@ -89,5 +89,8 @@ export class NavigatorComponent implements OnInit {
   onNavItemClick(e: Event, url: string) {
     e.stopPropagation();
     this.router.navigateByUrl(url);
+  }
+  onBackClick() {
+    this.cancellation.emit();
   }
 }

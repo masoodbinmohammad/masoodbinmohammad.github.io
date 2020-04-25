@@ -17,7 +17,7 @@ export const NewsPageData: IProject = {
     'Used the code first approach with the Entity Framework to generate models and the dbcontext.',
     'Working with SSMS for MS SQL SERVER 2008R2/2014 for coding and scripts to deliver the client requirements and fine tuning the stored procedure, functions and views for a better application performance.'
   ],
-  tags: ['asp.net', 'asp.net MVC', 'WebAPI','CSS'],
+  tags: ['asp.net', 'css'],
   techStuff: [
     'ASP.NET MVC',
     'Entity Framework',

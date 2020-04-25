@@ -1,4 +1,4 @@
-**My portfolio website 😍 😍**
+**My Portfolio Website 😍 😍**
 
 
 This is my portfolio website (SPA), developed with Angular9 .
@@ -6,10 +6,11 @@ This is my portfolio website (SPA), developed with Angular9 .
 
 ## URL :: https://masoodbinmohammad.github.io
 
-**Buit with 🔧 🔨 ⚒**
+**Built with 🔧 🔨 ⚒**
 
-- Angular9
+- Angular9 
 - Angular Animation
-- CSS
+- SCSS
 - TypeScript
+- Live Chat Feature
 

@@ -7,6 +7,9 @@ import { PdaData } from './data/pda.data';
 import { NewsPageData } from './data/newspage.data';
 import { WebOpsData } from './data/web-ops.data';
 import { PPSData } from './data/pps.data';
+import {PortfolioData} from './data/portfolio.data';
+import {CareerbuilderData} from './data/careerbuilder.data';
+import {HobbyArchadeData} from './data/hobby-archade.data';
 
 
 const getAllProject = () => {
@@ -14,7 +17,10 @@ const getAllProject = () => {
     PdaData,
     NewsPageData,
     WebOpsData,
-    PPSData
+    PPSData,
+    PortfolioData,
+    CareerbuilderData,
+    HobbyArchadeData
   ];
 
   if (!environment.production) {
