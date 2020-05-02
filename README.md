@@ -14,3 +14,4 @@ This is my portfolio website (SPA), developed with Angular9 .
 - TypeScript
 - Tawk (Live Chat)
 
+Website design credits : Ritwik Dey
