@@ -1,7 +1,7 @@
 import { IProject } from '../IProject';
 
 export const NewsPageData: IProject = {
-  id: '2',
+  id: '7',
   name: 'NewsPage 📲 💻',
   description:
     'NewsPage Application is a distributor management system which covers the complete down-stream supply chain, helping our clients to control promotions, streamline inventory and sales processes.',
