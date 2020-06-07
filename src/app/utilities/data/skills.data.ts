@@ -22,25 +22,25 @@ export const SKILLS_DATA: ISkill[] = [
   {
     type: 'Database & ORM',
     names: [
-      'SQL Server','Oracle', 'Entity Framework','MongoDB'
+      'SQL Server', 'Oracle', 'Entity Framework', 'MongoDB'
     ]
   },
   {
     type: 'Cloud',
     names: [
-      'AWS::','EBS','ALB','S3','SNS', 'SQS','Lambda','WAF','CloudFront','Azure PaaS'
+      'AWS::', 'EBS', 'ALB', 'S3', 'SNS', 'SQS', 'Lambda', 'WAF', 'CloudFront', 'Azure PaaS'
     ]
   },
   {
     type: 'Testing',
     names: [
-      'NUnit','Jest', 'Karma','Jasmine'
+      'NUnit', 'Jest', 'Karma', 'Jasmine'
     ]
   },
   {
     type: 'Others',
     names: [
-      'Git & GitHub', 'CI/CD', 'REST API', 'JWT', 'Intercom','JIRA',
+      'Git & GitHub', 'CI/CD', 'REST API', 'JWT', 'Intercom', 'JIRA',
     ]
   },
 ];

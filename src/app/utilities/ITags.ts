@@ -1,5 +1,4 @@
 export interface ITag {
-    displayName: string;
-    isSelected: boolean;
-  }
-  
+  displayName: string;
+  isSelected: boolean;
+}

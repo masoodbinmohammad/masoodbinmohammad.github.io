@@ -10,10 +10,11 @@ export class EscCancelationDirective {
 
   @HostListener('document:keydown', ['$event'])
   onKeydownHandler(event: KeyboardEvent) {
-    if (event.key === 'Escape')
+    if (event.key === 'Escape'){
       this.appEscCancelation.emit({
         msg: 'Escape Btn Clicked',
         event
       });
+    }
   }
 }

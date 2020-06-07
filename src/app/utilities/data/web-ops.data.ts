@@ -23,7 +23,7 @@ export const WebOpsData: IProject = {
     'Entity Framework',
     'SQL',
     'JSON',
-    'Jenkins', 
+    'Jenkins',
     'Git',
     'Postman',
     'Visual Studio 2017',

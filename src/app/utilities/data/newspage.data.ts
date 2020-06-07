@@ -24,10 +24,10 @@ export const NewsPageData: IProject = {
     'SQL',
     'HTML5',
     'CSS3',
-    'jQuery', 
-    'Bootstrap', 
+    'jQuery',
+    'Bootstrap',
     'Visual Studio 2012',
-    'SSMS', 
+    'SSMS',
     'TFS'
   ],
   additionalData: []

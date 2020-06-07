@@ -13,7 +13,7 @@ export const HobbyArchadeData: IProject = {
     'Stream uploaded media',
     'Admin Feature (currently in dev stage)'
   ],
-  tags: ['react.js', 'css',],
-  techStuff: ['ReactJS', 'MongoDB', 'CSS', 'Node','ExpressJS'],
+  tags: ['react.js', 'css'],
+  techStuff: ['ReactJS', 'MongoDB', 'CSS', 'Node', 'ExpressJS'],
   additionalData: []
 };

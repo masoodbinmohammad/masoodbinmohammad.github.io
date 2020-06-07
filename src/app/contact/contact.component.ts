@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   contactProfile = {
     profile: [
@@ -51,8 +51,8 @@ export class ContactComponent implements OnInit {
     url: 'mailto:masoodbinmohammad@hotmail.com',
     iconUrl: './assets/icon/email.svg'
   };
-  
-  ngOnInit() {}
+
+  ngOnInit() { }
 
   onBackClick() {
     this.router.navigateByUrl('/');

@@ -21,8 +21,8 @@ export const PdaData: IProject = {
     'Oracle',
     'C#',
     'WCF',
-    'Visual Studio 2010', 
-    'Toad for Oracle', 
+    'Visual Studio 2010',
+    'Toad for Oracle',
     'SVN'
   ],
   additionalData: []

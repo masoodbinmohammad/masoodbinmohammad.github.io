@@ -9,7 +9,7 @@ import { Component,
   templateUrl: './pic-logo.component.html',
   styleUrls: ['./pic-logo.component.scss']
 })
-export class PicLogoComponent implements OnInit,OnChanges {
+export class PicLogoComponent implements OnInit, OnChanges {
   imgStyle: {};
   logoStyles: {};
   @Input('height') height: string;

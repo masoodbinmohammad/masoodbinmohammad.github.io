@@ -15,7 +15,7 @@ export const CareerbuilderData: IProject = {
     'Live data synchronisation using AWS SNS & SQS ',
     'Responsive UI'
   ],
-  tags: ['asp.net', 'css','aws'],
-  techStuff: ['ASP.NET MVC', 'jQuery', 'CSS', 'JavaScript','SQL','AWS SNS&SQS','AWS Lambda','EBS&ALB','WAF'],
+  tags: ['asp.net', 'css', 'aws'],
+  techStuff: ['ASP.NET MVC', 'jQuery', 'CSS', 'JavaScript', 'SQL', 'AWS SNS&SQS', 'AWS Lambda', 'EBS&ALB', 'WAF'],
   additionalData: []
 };

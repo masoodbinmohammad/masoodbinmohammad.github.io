@@ -1,5 +1,5 @@
 export interface ISkill {
-    type: string;
-    names: string[];
-  }
-  
+  type: string;
+  names: string[];
+}
+
