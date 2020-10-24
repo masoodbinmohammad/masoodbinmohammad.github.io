@@ -10,12 +10,12 @@ export const CareerbuilderData: IProject = {
   liveUrl: 'https://www.careerbuilder.com/',
   features: [
     'Payment page for employer and hiring customers',
-    'User, Account creation for new users',
-    'Intercom to manager user actions and live chat feature',
+    'User, Account management for customers',
+    'Intercom to manage user actions and live chat feature',
     'Live data synchronisation using AWS SNS & SQS ',
     'Responsive UI'
   ],
-  tags: ['asp.net', 'css', 'aws'],
-  techStuff: ['ASP.NET MVC', 'jQuery', 'CSS', 'JavaScript', 'SQL', 'AWS SNS&SQS', 'AWS Lambda', 'EBS&ALB', 'WAF'],
+  tags: ['asp.net', 'css', 'aws','angular','node.js'],
+  techStuff: ['ASP.NET MVC', 'jQuery', 'CSS', 'JavaScript', 'SQL', 'AWS SNS&SQS', 'AWS Lambda', 'EBS&ALB', 'WAF','Angular'],
   additionalData: []
 };

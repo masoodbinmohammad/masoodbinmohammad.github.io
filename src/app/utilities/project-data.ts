@@ -1,18 +1,18 @@
-import { environment } from '../../environments/environment';
+import { environment } from "../../environments/environment";
 
-import { IProject } from './IProject';
-import { testUniqueness } from './common';
+import { IProject } from "./IProject";
+import { testUniqueness } from "./common";
 
-import { PdaData } from './data/pda.data';
-import { NewsPageData } from './data/newspage.data';
-import { WebOpsData } from './data/web-ops.data';
-import { PPSData } from './data/pps.data';
-import {PortfolioData} from './data/portfolio.data';
-import {CareerbuilderData} from './data/careerbuilder.data';
-import {HobbyArchadeData} from './data/hobby-archade.data';
-import {BlogData} from './data/blog.data';
-
-
+import { PdaData } from "./data/pda.data";
+import { NewsPageData } from "./data/newspage.data";
+import { WebOpsData } from "./data/web-ops.data";
+import { PPSData } from "./data/pps.data";
+import { PortfolioData } from "./data/portfolio.data";
+import { CareerbuilderData } from "./data/careerbuilder.data";
+import { HobbyArchadeData } from "./data/hobby-archade.data";
+import { BlogData } from "./data/blog.data";
+import { ZoomCloneData } from "./data/zoom-clone.data";
+import { WhatsappBotData } from "./data/whatsapp-chatbot.data";
 
 const getAllProject = () => {
   const projects = [
@@ -23,11 +23,13 @@ const getAllProject = () => {
     WebOpsData,
     PPSData,
     NewsPageData,
-    PdaData
+    PdaData,
+    ZoomCloneData,
+    WhatsappBotData
   ];
 
   if (!environment.production) {
-    const result = testUniqueness(projects, project => project.id);
+    const result = testUniqueness(projects, (project) => project.id);
 
     if (result.error) {
       const errorLog = [];
