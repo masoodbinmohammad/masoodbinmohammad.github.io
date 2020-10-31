@@ -4,7 +4,7 @@ export const PPSData: IProject = {
   id: '5',
   name: 'PPS  🚚 ',
   description:
-    'The PPS project was introduced in order to deal with smaller clients for WebOps to order, track and deliver the products.',
+    'The PPS project was introduced in order to deal with smaller clients order, track and deliver the products.',
   projectLink: null,
   liveUrl: null,
   isFeatured: true,

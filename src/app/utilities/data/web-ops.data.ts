@@ -2,9 +2,9 @@ import { IProject } from '../IProject';
 
 export const WebOpsData: IProject = {
   id: '6',
-  name: 'WebOps  🚚 ',
+  name: 'Confidential  🚚 ',
   description:
-    'WebOps Logistics platform is a nSAAS solution that provides Medical Device Manufacturers, Distributors and Providers with accurate tracking and ordering for a broad range of medical devices.',
+    'A Logistics platform is a nSAAS solution that provides Medical Device Manufacturers, Distributors and Providers with accurate tracking and ordering for a broad range of medical devices.',
   projectLink: null,
   liveUrl: null,
   isFeatured: true,
