@@ -43,5 +43,5 @@ const APP_ROUTES: Routes = [
 ];
 
 export const appRouting = RouterModule.forRoot(APP_ROUTES, {
-  useHash: true
+  useHash: false
 });
